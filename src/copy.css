@@ -1,0 +1,2881 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFDF4;
+}
+
+img {
+    object-fit: cover;
+}
+
+h1 {
+    width: 60vw;
+    margin: auto;
+    margin-top: 0%;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Titan One';
+    font-weight: 100;
+    color: #3A6A7C;
+}
+
+h2 {
+    margin: 0%;
+    font-size: 2vw;
+    font-family: 'Titan One';
+    font-weight: 100;
+    color: #3A6A7C;
+}
+
+h3 {
+    margin: 0%;
+    font-size: 1.2vw;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 1vw;
+    font-family: 'Montserrat'
+}
+
+span {
+    font-size: 0.8vw;
+    font-family: 'Montserrat'
+}
+
+a {
+    font-size: 1vw;
+    padding: 0.5vw 1vw 0.6vw 1vw;
+    font-family: 'Titan One';
+    background-color: #DB7036;
+    color: #FFFDF4;
+    text-decoration: none;
+    border: 0vw;
+    border-radius: 1vw;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* HEADER PAGE */
+
+.Header-Main {
+    background-color: #FFFDF4;
+    display: flex;
+    width: 75vw;
+    height: fit-content;
+    margin: auto;
+    justify-content: space-between;  
+}
+
+.Header-Div {
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    border-top: #B9B9B9 solid 0.1vw;
+}
+
+.Header-Desktop{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.Header-Mobile {
+    display: none;
+}
+
+.Header-Links-a{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: #FFFDF4;
+    color: #000000;
+}
+
+.Header-Links-a img {
+    width: 5vw;
+}
+
+/* FOOTER PAGE */
+
+.Footer-Main {
+    background-color: #FFFDF4;
+}
+
+.Footer-Div {
+    width: 75vw;
+    margin: auto;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    border-top: #B9B9B9 solid 0.1vw;
+    border-bottom: #B9B9B9 solid 0.1vw;
+}
+
+.Footer-Info {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.Footer-Image img {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 1vw;
+}
+
+.Footer-Links {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.Footer-Links-Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-Links-a{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: #FFFDF4;
+    color: #B9B9B9;
+}
+
+.Footer-Socials  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.Footer-Socials-a{
+    background-color: #FFFDF4;
+    padding: 0vw;
+}
+
+.Footer-Socials-a img{
+    width: 4vw;
+}
+
+
+/* HOME PAGE */
+
+.Hero {
+    margin-top: 7vw;
+    margin-bottom: 7vw;    
+}
+
+.Hero-Div{
+    width: 75vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.Hero p {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+}
+
+.Hero a { 
+    margin-top: 2vw;
+}
+
+.home-hero-banner {
+    width: 100%;
+    height: 30vw;
+    object-fit: fill;
+}
+
+.services-section-div{
+    padding-top: 7vw;
+    padding-bottom: 7vw;  
+    background-color: #FFF2C6;
+}
+
+.services-section-info {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
+.services-section-second {
+    margin-top: 5vw;
+    margin-bottom: 5vw;  
+}
+
+.services-section-second-div {
+    width: 75vw; 
+    margin: auto;
+    display: flex;
+}
+
+#services-section-second-div-Img {
+    width: 35vw;
+    border-radius: 1vw;
+    margin-right: 3vw;
+}
+
+.About-Section-Img {
+    width: 75vw;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#About-Section-Img {
+    width: 75vw;
+    height: 25vw;
+    border-radius: 1vw;
+}
+
+.About-Section {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.About-Section-div {
+    width: 75vw;
+    margin-bottom: 5vw;
+    display: flex;
+}
+
+.About-Section-div h2{
+    width: 80vw;
+    padding-right: 2vw;
+}
+
+.About-Section-div-info {
+    height: fit-content;
+}
+
+.About-Section-div-info p {
+    margin-bottom: 2vw;
+}
+
+.About-Sec-Main-Section {
+    background-color: #FFF2C6;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.About-Sec {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.About-Sec-Main {
+    width: 100vw;
+    padding-right: 2vw;
+}
+
+.Newsletter-Section {
+    width: 75vw;
+    margin: auto;
+    margin-top: 5vw;
+    text-align: center;
+}
+
+/* ABOUT PAGE */
+
+.About-Info-Section-Images div:nth-of-type(even){
+    margin-top: 2vw;
+}
+
+.About-Hero-Image div:nth-last-of-type(odd) {
+    margin-top: 2vw;
+}
+
+.About-Hero-div {
+    width: 75vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+
+.About-Hero-div-info p {
+    width: 60vw;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.About-Hero-Image {
+    margin: auto;
+    margin-top: 4vw;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.About-Hero-Image-Card img {
+    width: 14vw;
+    height: 20vw;
+    border-radius: 1vw;
+}
+
+.Commnity {
+    text-align: center;
+    background-color: #FFF2C6;
+}
+
+.Commnity-div {
+    width: 60vw;
+    margin: auto;
+    padding-top: 8vw;
+    padding-bottom: 7vw;
+    margin-bottom: 5vw;
+}
+
+.About-Info-Section {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.About-Info-Section-div {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+}
+
+.About-Info-Section-div-r {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+}
+
+.About-Info-Section-Info {
+    margin-left: 4vw;
+}
+
+.About-Info-Section-Info-r {
+    margin-right: 4vw;
+}
+
+.About-Info-Section-Images {
+    display: flex;
+}
+
+.About-Info-Section-Images div:nth-of-type(even){
+    margin-left: 2vw;
+}
+
+.About-Info-Section-Images div img {
+    width: 13vw;
+    height: 20vw;
+    border-radius: 1vw;
+}
+
+.Founders-Section-Images {
+    width: 70vw;
+    display: flex;
+}
+
+.Founders-Section-div {
+    margin: auto;
+    width: 75vw;
+    display: flex;
+}
+
+.Founders-Section-Images div img {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 1vw;
+    margin-left: 2vw;
+}
+
+/* SERVICES PAGE */
+.Services-Hero {
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+}
+
+.Services-Hero-Img img{
+    width: 100vw;
+    height: 40vw;
+}
+
+.Services-Section-img img{
+    width: 35vw;
+    height: 20vw;
+    border-radius: 1vw;
+}
+
+.Services-Section {
+    width: 75vw;
+    margin: auto;
+}
+
+.Services-Section-div {
+    display: flex;
+    margin-top: 7vw;
+    margin-bottom: 7vw;    
+}
+
+.Services-Section-Info-left {
+    padding-left: 3vw;
+}
+
+.Services-Section-Info-right {
+    padding-right: 3vw;
+}
+
+/* CONTACT PAGE */
+
+.Contact-Links-a{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: #FFFDF4;
+    color: #B9B9B9;
+    padding-left: 0vw;
+}
+
+.Contact-Section {
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+.Contact-Section-Info {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-Section-Info h1{
+    width: 40vw;
+    text-align: left;
+}
+
+.Contact-Section-Info-Connections {
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-Socials  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.Contact-Socials-a{
+    background-color: #FFFDF4;
+    padding: 0vw;
+}
+
+.Contact-Socials-a img{
+    width: 4vw;
+}
+
+/* DONATE PAGE */
+
+.Donate-Button {
+    width: fit-content;
+    margin: auto;
+    margin-top: 2vw;
+    font-size: 1vw;
+    padding: 0.7vw 1.2vw 0.7vw 1.2vw;
+    font-family: 'Titan One';
+    background-color: #DB7036;
+    color: #FFFDF4;
+    text-decoration: none;
+    border: 0vw;
+    border-radius: 1vw;
+    text-align: center;
+    font-weight: 100;
+}
+
+.Donate-Shifter-Div {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.Donate-Shifter {
+    font-size: 1vw;
+    padding: 0.7vw 1.2vw 0.7vw 1.2vw;
+    font-family: 'Titan One';
+    background-color: #DB7036;
+    color: #FFFDF4;
+    text-decoration: none;
+    border: 0vw;
+    border-radius: 1vw;
+    text-align: center;
+    font-weight: 100;
+}
+
+.Donate-Funds-Section {
+    width: 40vw;
+    display: flex;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+    text-align: center;
+}
+
+.Donate-Funds-Section-Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Donate-Funds-Section-Info h3{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Donate-Funds-Section-Info h2{
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+}
+
+.Donate-Instrument-Links-a{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: #FFFDF4;
+    color: #B9B9B9;
+    padding-left: 0vw;
+}
+
+.Donate-Instrument-Section {
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+.Donate-Instrument-Section-Info {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Donate-Instrument-Section-Info h3{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Donate-Instrument-Section-Info h1{
+    width: 40vw;
+    text-align: left;
+}
+
+.Donate-Instrument-Section-Info-Connections {
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Donate-Instrument-Socials  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.Donate-Instrument-Socials-a{
+    background-color: #FFFDF4;
+    padding: 0vw;
+}
+
+.Donate-Instrument-Socials-a img{
+    width: 4vw;
+}
+
+.How-Donate-Section {
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.How-Donate-Section h2{
+    margin-bottom: 2vw;
+}
+
+.How-Donate-Section-Info {
+    margin-top: 2vw;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 768px) {
+    h1 {
+        font-size: 4vw;
+    }
+    
+    h2 {
+        font-size: 2.5vw;
+    }
+    
+    h3 {
+        font-size: 2vw;
+    }
+    
+    p {
+        font-size: 1.5vw;
+    }
+    
+    span {
+        font-size: 0.8vw;
+    }
+    
+    a {
+        font-size: 1.6vw;
+    }
+    
+    .center-button {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .Header-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 1.6vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #000000;
+    }
+    
+    .Header-Links-a img {
+        width: 7vw;
+    }
+
+    /* BG GRAPHICS */
+
+    .green-note img{
+        width: 5vw;
+    }
+
+    .red-note img{
+        width: 5vw;
+    }
+
+    .yellow-note img{
+        width: 5vw;
+    }
+
+    .ban-con img{
+        width: 15vw;
+    }
+
+    .Home-SVG-Wave img {
+        width: 21vw;
+    }
+
+    .Home-SVG-Wave {
+        width: fit-content;
+        position: absolute;
+        z-index: 4;
+        top: 0vw;
+        right: 0vw;
+    }
+
+    .green-note {
+        width: fit-content;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #green1 {
+        top: 6vw;
+        left: 10vw
+    }
+
+    #green2 {
+        z-index: 4;
+        top: 71.5vw;
+        left: 15vw
+    }
+
+    #green3 {
+        top: 115vw;
+        right: 5vw;
+    }
+
+    #green4 {
+        top: 205vw;
+        left: 15vw
+    }
+
+    #red1 {
+        top: 25vw;
+        right: 10vw
+    }
+
+    #red2 {
+        z-index: 4;
+        top: 79vw;
+        right: 10vw;
+    }
+
+    #red3 {
+        top: 185vw;
+        right: 5vw;
+    }
+
+    #yellow1 {
+        top: 168vw;
+        left: 5vw
+    }
+
+    .services-section-div {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #ban-con-l {
+        top: 9vw;
+        left: -1vw;
+        z-index: 4;
+    }
+
+    #ban-con-r {
+        top: 9vw;
+        right: -1vw;
+        z-index: 4;
+    }
+
+    .red-note {
+        width: fit-content;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .yellow-note {
+        width: fit-content;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .ban-con {
+        width: fit-content;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #SVG-Home-Hero-Wave {
+        width: fit-content;
+        position: absolute;
+        z-index: 0;
+        top: 28vw;
+    }
+
+    #SVG-Home-Hero-Wave img {
+        width: 40vw;
+    }
+
+    /* FOOTER PAGE */
+
+.Footer-Main {
+    background-color: #FFFDF4;
+}
+
+.Footer-Div {
+    width: 75vw;
+    margin: auto;
+    margin-top: 10vw;
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+    border-top: #B9B9B9 solid 0.1vw;
+    border-bottom: #B9B9B9 solid 0.1vw;
+}
+
+.Footer-Info {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+.Footer-Image img {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 1vw;
+}
+
+.Footer-Links {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.Footer-Links-Div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-Links-a{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 1.3vw;
+    font-weight: 500;
+    background-color: #FFFDF4;
+    color: #B9B9B9;
+}
+
+.Footer-Socials  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.Footer-Socials-a{
+    background-color: #FFFDF4;
+    padding: 0vw;
+}
+
+.Footer-Socials-a img{
+    width: 4vw;
+}
+
+    /* HOME PAGE */
+
+    .Hero p {
+        margin: auto;
+        width: 75vw;
+        margin-top: 2.5vw;
+        margin-bottom: 1.5vw;
+        text-align: center;
+    }
+
+    .Hero a { 
+        margin-top: 2vw;
+        padding: 1vw 2vw 1vw 2vw;
+    }
+
+    .home-hero-banner {
+        width: 100%;
+        height: 30vw;
+    }
+
+    .services-section-div{
+        padding-top: 7vw;
+        padding-bottom: 7vw;  
+        background-color: #FFF2C6;
+    }
+
+    .services-section-info {
+        width: 60vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .services-section-second {
+        margin-top: 5vw;
+        margin-bottom: 5vw;  
+    }
+
+    .services-section-second-div {
+        width: 75vw; 
+        margin: auto;
+        display: flex;
+    }
+
+    #services-section-second-div-Img {
+        width: 35vw;
+        border-radius: 1vw;
+        margin-right: 3vw;
+    }
+
+    .About-Section-Img {
+        width: 75vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #About-Section-Img {
+        width: 75vw;
+        height: 25vw;
+        border-radius: 1vw;
+    }
+
+    .About-Section {
+        width: 75vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .About-Section-div {
+        margin-bottom: 5vw;
+        display: flex;
+    }
+
+    .About-Section-div h2{
+        width: 100vw;
+        padding-right: 2vw;
+    }
+
+    .About-Section-div-info {
+        height: fit-content;
+    }
+
+    .About-Section-div-info p {
+        margin-bottom: 2vw;
+    }
+
+    .About-Sec {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 75vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .About-Sec-Main {
+        width: 120vw;
+        padding-right: 2vw;
+    }
+
+    .Newsletter-Section {
+        width: 75vw;
+        margin: auto;
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    /* ABOUT PAGE */
+
+    .About-Hero-div {
+        width: 75vw;
+        margin: auto;
+        text-align: center;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .About-Hero-div-info p {
+        width: 60vw;
+        margin: auto;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    .About-Hero-Image {
+        margin: auto;
+        margin-top: 4vw;
+        width: 60vw;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .About-Hero-Image-Card img {
+        width: 14vw;
+        height: 20vw;
+        border-radius: 1vw;
+    }
+
+    .Commnity {
+        text-align: center;
+        background-color: #FFF2C6;
+    }
+
+    .Commnity-div {
+        width: 60vw;
+        margin: auto;
+        padding-top: 8vw;
+        padding-bottom: 7vw;
+        margin-bottom: 5vw;
+    }
+
+    .About-Info-Section {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .About-Info-Section-div {
+        width: 75vw;
+        margin: auto;
+        display: flex;
+    }
+
+    .About-Info-Section-div-r {
+        width: 75vw;
+        margin: auto;
+        display: flex;
+    }
+
+    .About-Info-Section-Info {
+        margin-left: 4vw;
+    }
+
+    .About-Info-Section-Info-r {
+        margin-right: 4vw;
+    }
+
+    .About-Info-Section-Images {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .About-Info-Section-Images div img {
+        width: 13vw;
+        height: 20vw;
+        border-radius: 1vw;
+    }
+
+    .Founders-Section-Images {
+        width: 70vw;
+        display: flex;
+    }
+
+    .Founders-Section-div {
+        margin: auto;
+        width: 75vw;
+        display: flex;
+    }
+
+    .Founders-Section-Images div img {
+        width: 18vw;
+        height: 18vw;
+        border-radius: 1vw;
+        margin-left: 2vw;
+    }
+
+    /* SERVICES PAGE */
+    .Services-Hero {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .Services-Hero-Img img{
+        width: 100vw;
+        height: 40vw;
+    }
+
+    .Services-Section-img img{
+        width: 35vw;
+        height: 20vw;
+        border-radius: 1vw;
+    }
+
+    .Services-Section {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .Services-Section-div {
+        display: flex;
+        margin-top: 7vw;
+        margin-bottom: 7vw;    
+    }
+
+    .Services-Section-Info-left {
+        padding-left: 3vw;
+    }
+
+    .Services-Section-Info-right {
+        padding-right: 3vw;
+    }
+
+    /* CONTACT PAGE */
+    
+    .Contact-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 1.6vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #B9B9B9;
+        padding-left: 0vw;
+    }
+    
+    .Contact-Section {
+        width: 75vw;
+        display: flex;
+        margin: auto;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+    
+    .Contact-Section-Info {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Contact-Section-Info h1{
+        width: 40vw;
+        text-align: left;
+    }
+    
+    .Contact-Section-Info-Connections {
+        padding-top: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Contact-Socials  {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+    }
+    
+    .Contact-Socials-a{
+        background-color: #FFFDF4;
+        padding: 0vw;
+    }
+    
+    .Contact-Socials-a img{
+        width: 4vw;
+    }
+
+    /* DONATE PAGE */
+
+    .Donate-Button {
+        width: fit-content;
+        margin: auto;
+        margin-top: 2vw;
+        font-size: 2vw;
+        padding: 0.9vw 1.5vw 0.9vw 1.5vw;
+        font-family: 'Titan One';
+        background-color: #DB7036;
+        color: #FFFDF4;
+        text-decoration: none;
+        border: 0vw;
+        border-radius: 1vw;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .Donate-Shifter-Div {
+        display: flex;
+        width: 43vw;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 5vw;
+    }
+
+    .Donate-Shifter {
+        font-size: 2vw;
+        padding: 0.7vw 1.2vw 0.7vw 1.2vw;
+        font-family: 'Titan One';
+        background-color: #DB7036;
+        color: #FFFDF4;
+        text-decoration: none;
+        border: 0vw;
+        border-radius: 1vw;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .Donate-Funds-Section {
+        width: 75vw;
+        display: flex;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        text-align: center;
+    }
+
+    .Donate-Funds-Section-Info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Funds-Section-Info h3{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .Donate-Funds-Section-Info h2{
+        width: 30vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .Donate-Instrument-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 1.5vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #B9B9B9;
+        padding-left: 0vw;
+    }
+
+    .Donate-Instrument-Section {
+        width: 75vw;
+        display: flex;
+        margin: auto;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+
+    .Donate-Instrument-Section-Info {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Instrument-Section-Info h3{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .Donate-Instrument-Section-Info h1{
+        width: 40vw;
+        text-align: left;
+    }
+
+    .Donate-Instrument-Section-Info-Connections {
+        padding-top: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Instrument-Socials  {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+    }
+
+    .Donate-Instrument-Socials-a{
+        background-color: #FFFDF4;
+        padding: 0vw;
+    }
+
+    .Donate-Instrument-Socials-a img{
+        width: 4vw;
+    }
+
+    .How-Donate-Section {
+        width: 60vw;
+        margin: auto;
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+
+    .How-Donate-Section h2{
+        margin-bottom: 2vw;
+    }
+
+    .How-Donate-Section-Info {
+        margin-top: 2vw;
+    }
+
+}
+/* Mobile View */
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+    
+    h2 {
+        font-size: 6vw;
+    }
+    
+    h3 {
+        font-size: 4.5vw;
+    }
+    
+    p {
+        font-size: 3.65vw;
+    }
+    
+    span {
+        font-size: 3vw;
+    }
+    
+    a {
+        font-size: 4vw;
+        border-radius: 3vw;
+        padding: 2vw 3vw 2vw 3vw;
+    }
+    
+    .center-button {
+        display: flex; 
+        justify-content: center;
+    }
+
+    /* FOOTER PAGE */
+
+    .Footer-Main {
+        background-color: #FFFDF4;
+    }
+
+    .Footer-Div {
+        width: 95vw;
+        margin: auto;
+        margin-top: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 4vw;
+        border-top: #B9B9B9 solid 0.1vw;
+        border-bottom: #B9B9B9 solid 0.1vw;
+    }
+
+    .Footer-Info {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+        margin-bottom: 2vw;
+    }
+
+    .Footer-Image {
+        margin: auto;
+    }
+
+    .Footer-Image img {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 1vw;
+    }
+
+    .Footer-Links {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: space-between;
+    }
+
+    .Footer-Links-Div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+
+    .Footer-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 4vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #B9B9B9;
+    }
+
+    .Footer-Socials  {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .Footer-Socials-a{
+        background-color: #FFFDF4;
+        padding: 0vw;
+    }
+
+    .Footer-Socials-a img{
+        width: 10vw;
+    }
+
+    /* HOME PAGE */
+
+    .Hero {
+        margin-top: 15vw;
+        margin-bottom: 20vw;    
+    }
+    
+    .Hero-Div{
+        width: 95vw;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .Hero h1 {
+        width: 90vw;
+    }
+
+    .Hero p {
+        margin: auto;
+        width: 90vw;
+        margin-top: 2.5vw;
+        margin-bottom: 1.5vw;
+        text-align: center;
+    }
+
+    .Hero a { 
+        margin-top: 2vw;
+    }
+
+    .home-hero-banner {
+        width: 100%;
+        height: 80vw;
+        object-fit: cover;
+    }
+
+    .services-section-div{
+        padding-top: 20vw;
+        padding-bottom: 20vw;  
+        background-color: #FFF2C6;
+    }
+
+    .services-section-info {
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .services-section-second {
+        margin-top: 5vw;
+        margin-bottom: 5vw;  
+    }
+
+    .services-section-second-info-Card {
+        margin-top: 5vw;
+        margin-bottom: 5vw;  
+    }
+
+    .services-section-second-div {
+        width: 95vw; 
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services-section-second-div-Img {
+        width: 95vw;
+        border-radius: 1vw;
+        margin-right: 3vw;
+    }
+
+    .About-Section-Img {
+        width: 95vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #About-Section-Img {
+        width: 95vw;
+        height: 60vw;
+        border-radius: 1vw;
+    }
+
+    .About-Section {
+        width: 95vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-Section-div {
+        margin-bottom: 15vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-Section-div h2{
+        width: 90vw;
+        padding-right: 0vw;
+    }
+
+    .About-Section-div-info {
+        height: fit-content;
+    }
+
+    .About-Section-div-info p {
+        margin-bottom: 12vw;
+    }
+
+    .About-Sec {
+        margin-top: 15vw;
+        margin-bottom: 50vw;
+        width: 95vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-Sec-Main-Section {
+        background-color: #FFF2C6;
+        padding-top: 14vw;
+        padding-bottom: 14vw;
+    }
+
+    .About-Sec-Main {
+        width: 90vw;
+        padding-right: 0vw;
+    }
+
+    .About-Sec-Info {
+        margin-bottom: 0vw;
+    }
+
+    .Newsletter-Section {
+        width: 95vw;
+        margin: auto;
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    /* ABOUT PAGE */
+
+    .About-Info-Section-Images div:nth-of-type(even){
+        margin-top: 0vw;
+    }
+    
+    .About-Hero-Image div:nth-last-of-type(odd) {
+        margin-top: 0vw;
+    }
+
+    .About-Hero-div {
+        width: 95vw;
+        margin: auto;
+        text-align: center;
+        margin-top: 20vw;
+        margin-bottom: 20vw;
+    }
+
+    .About-Hero-div-info p {
+        width: 90vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 8vw;
+    }
+
+    .About-Hero-Image {
+        margin: auto;
+        margin-top: 4vw;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .About-Hero-Image-Card img {
+        margin-top: 10vw;
+        width: 40vw;
+        height: 50vw;
+        border-radius: 1vw;
+    }
+
+    .Commnity {
+        text-align: center;
+        background-color: #FFF2C6;
+    }
+
+    .Commnity-div {
+        width: 90vw;
+        margin: auto;
+        padding-top: 18vw;
+        padding-bottom: 17vw;
+        margin-bottom: 15vw;
+    }
+
+    .About-Info-Section {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .About-Info-Section-div {
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-Info-Section-div-r {
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .About-Info-Section-Info {
+        margin-left: 0vw;
+    }
+
+    .About-Info-Section-Info-r {
+        margin-right: 0vw;
+    }
+
+    .About-Info-Section-Images {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .About-Info-Section-Images div img {
+        width: 43vw;
+        height: 50vw;
+        border-radius: 1vw;
+    }
+
+    .Founders-Section-Images {
+        width: 90vw;
+        display: flex;
+    }
+
+    .Founders-Section-div {
+        margin: auto;
+        width: 95vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Founders-Section-Images div img {
+        width: 43vw;
+        height: 43vw;
+        border-radius: 1vw;
+        margin-left: 2vw;
+    }
+
+    /* SERVICES PAGE */
+    .Services-Hero {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .Services-Hero-Img img{
+        width: 100vw;
+        height: 60vw;
+    }
+
+    .Services-Section-img img{
+        width: 90vw;
+        height: 40vw;
+        border-radius: 1vw;
+    }
+
+    .Services-Section {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .Services-Section-div {
+        display: flex;
+        margin-top: 15vw;
+        margin-bottom: 15vw;
+        flex-direction: column;
+    }
+
+    #rev {
+        flex-direction: column-reverse;
+    }
+
+    .Services-Section-Info-left {
+        padding-left: 0vw;
+    }
+
+    .Services-Section-Info-right {
+        padding-right: 0vw;
+    }
+
+    /* CONTACT PAGE */
+    
+    .Contact-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 4vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #B9B9B9;
+        padding-left: 0vw;
+    }
+    
+    .Contact-Section {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+    
+    .Contact-Section-Info {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Contact-Section-Info h1{
+        width: 90vw;
+        text-align: left;
+    }
+    
+    .Contact-Section-Info-Connections {
+        padding-top: 5vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Contact-Socials  {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+    }
+    
+    .Contact-Socials-a{
+        margin-top: 2vw;
+        background-color: #FFFDF4;
+        padding: 0vw;
+    }
+    
+    .Contact-Socials-a img{
+        width: 10vw;
+    }
+
+    /* DONATE PAGE */
+
+    .Donate-Button {
+        width: fit-content;
+        margin: auto;
+        margin-top: 4vw;
+        font-size: 4vw;
+        padding: 2vw 4vw 2vw 4vw;
+        font-family: 'Titan One';
+        background-color: #DB7036;
+        color: #FFFDF4;
+        text-decoration: none;
+        border: 0vw;
+        border-radius: 2vw;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .Donate-Shifter-Div {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 5vw;
+    }
+
+    .Donate-Shifter {
+        font-size: 4vw;
+        padding: 3vw 7vw 3vw 7vw;
+        font-family: 'Titan One';
+        background-color: #DB7036;
+        color: #FFFDF4;
+        text-decoration: none;
+        border: 0vw;
+        border-radius: 2vw;
+        text-align: center;
+        font-weight: 100;
+        margin-top: 3vw;
+    }
+
+    .Donate-Funds-Section {
+        width: 90vw;
+        display: flex;
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 12vw;
+        text-align: left;
+    }
+
+    .Donate-Funds-Section-Info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Funds-Section-Info h3{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .Donate-Funds-Section-Info h2{
+        width: 90vw;
+        margin: auto;
+        text-align: left;
+    }
+
+    .Donate-Instrument-Links-a{
+        font-family: 'Montserrat';
+        text-align: left;
+        font-size: 4vw;
+        font-weight: 500;
+        background-color: #FFFDF4;
+        color: #B9B9B9;
+        padding-left: 0vw;
+    }
+
+    .Donate-Instrument-Section {
+        width: 90vw;
+        display: flex;
+        margin: auto;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+
+    .Donate-Instrument-Section-Info {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Instrument-Section-Info h3{
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+
+    .Donate-Instrument-Section-Info h1{
+        width: 90vw;
+        text-align: left;
+    }
+
+    .Donate-Instrument-Section-Info-Connections {
+        padding-top: 10vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Donate-Instrument-Socials  {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+    }
+
+    .Donate-Instrument-Socials-a{
+        background-color: #FFFDF4;
+        padding: 0vw;
+    }
+
+    .Donate-Instrument-Socials-a img{
+        width: 10vw;
+    }
+
+    .How-Donate-Section {
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 8vw;
+        text-align: left;
+    }
+
+    .How-Donate-Section h2{
+        margin-bottom: 5vw;
+    }
+
+    .How-Donate-Section-Info {
+        margin-top: 5vw;
+    }
+}
+
+
+div {
+    position: inherit;
+    z-index: 2;
+}
+
+.center-button {
+    display: flex; 
+    justify-content: center;
+}
+
+/* BG GRAPHICS */
+
+.green-note img{
+    width: 5vw;
+}
+
+.red-note img{
+    width: 5vw;
+}
+
+.yellow-note img{
+    width: 5vw;
+}
+
+.ban-con img{
+    width: 15vw;
+}
+
+.Home-SVG-Wave img {
+    width: 21vw;
+}
+
+.Home-SVG-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.green-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.About-Top-Wave img {
+    width: 15vw;
+}
+
+.About-Top-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.About-Wave-Left img {
+    width: 7vw;
+}
+
+.About-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.About-Wave-Right img {
+    width: 7vw;
+}
+
+.About-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Services-Line-Left img {
+    width: 7vw;
+}
+
+.Services-Line-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.Services-WaveLine-Right img {
+    width: 7vw;
+}
+
+.Services-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Contact-Top-Right img {
+    width: 15vw;
+}
+
+.Contact-Top-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-Wave-Left img {
+    width: 10vw;
+}
+
+.Donate-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 20vw;
+    left: 0vw;
+}
+
+.Donate-Wave-Right img {
+    width: 10vw;
+}
+
+.Donate-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-WaveLine-Right img {
+    width: 10vw;
+}
+
+.Donate-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 60vw;
+    right: 0vw;
+}
+
+#green1 {
+    top: 6vw;
+    left: 10vw
+}
+
+#green2 {
+    z-index: 4;
+    top: 71.5vw;
+    left: 15vw
+}
+
+#green3 {
+    top: 115vw;
+    right: 5vw;
+}
+
+#green4 {
+    top: 205vw;
+    left: 15vw
+}
+
+#green5 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green6 {
+    top: 85vw;
+    right: 4vw;
+}
+
+#green7 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green8 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green9 {
+    top: 85vw;
+    left: 4vw;
+}
+
+#green10 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green11 {
+    top: 35vw;
+    left: 4vw
+}
+
+#green12 {
+    top: 15vw;
+    left: 4vw
+}
+
+#red1 {
+    top: 25vw;
+    right: 10vw
+}
+
+#red2 {
+    z-index: 4;
+    top: 79vw;
+    right: 10vw;
+}
+
+#red3 {
+    top: 185vw;
+    right: 5vw;
+}
+
+#red4 {
+    top: 40vw;
+    left: 4vw;
+}
+
+#red5 {
+    z-index: 4;
+    top: 140vw;
+    right: 4vw;
+}
+
+#red6 {
+    z-index: 4;
+    top: 145vw;
+    left: 4vw;
+}
+
+#red7 {
+    z-index: 4;
+    top: 30vw;
+    left: 7vw;
+}
+
+#red8 {
+    z-index: 4;
+    top: 100vw;
+    left: 5vw;
+}
+
+#yellow1 {
+    top: 168vw;
+    left: 5vw
+}
+
+#yellow2 {
+    top: 130vw;
+    left: 4vw
+}
+
+#yellow3 {
+    top: 20vw;
+    left: 5vw
+}
+
+#yellow4 {
+    top: 105vw;
+    right: 4vw;
+}
+
+#yellow5 {
+    top: 35vw;
+    right: 4vw;
+}
+
+.services-section-div {
+    position: relative;
+    overflow: hidden;
+}
+
+#ban-con-l {
+    top: 9vw;
+    left: -1vw;
+    z-index: 4;
+}
+
+#ban-con-r {
+    top: 9vw;
+    right: -1vw;
+    z-index: 4;
+}
+
+.red-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.yellow-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.ban-con {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+#SVG-Home-Hero-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+    top: 28vw;
+}
+
+#SVG-Home-Hero-Wave img {
+    width: 40vw;
+}
+
+.home-hero-banner {
+    position: relative;
+    margin-top: 3.7vw;
+    z-index: 99;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 768px) {
+    /* BG GRAPHICS */
+
+.green-note img{
+    width: 5vw;
+}
+
+.red-note img{
+    width: 5vw;
+}
+
+.yellow-note img{
+    width: 5vw;
+}
+
+.ban-con img{
+    width: 15vw;
+}
+
+.Home-SVG-Wave img {
+    width: 21vw;
+}
+
+.Home-SVG-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.green-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.About-Top-Wave img {
+    width: 15vw;
+}
+
+.About-Top-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.About-Wave-Left img {
+    width: 7vw;
+}
+
+.About-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.About-Wave-Right img {
+    width: 7vw;
+}
+
+.About-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Services-Line-Left img {
+    width: 7vw;
+}
+
+.Services-Line-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.Services-WaveLine-Right img {
+    width: 7vw;
+}
+
+.Services-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Contact-Top-Right img {
+    width: 15vw;
+}
+
+.Contact-Top-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-Wave-Left img {
+    width: 10vw;
+}
+
+.Donate-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 20vw;
+    left: 0vw;
+}
+
+.Donate-Wave-Right img {
+    width: 10vw;
+}
+
+.Donate-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-WaveLine-Right img {
+    width: 10vw;
+}
+
+.Donate-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 60vw;
+    right: 0vw;
+}
+
+#green1 {
+    top: 6vw;
+    left: 10vw
+}
+
+#green2 {
+    z-index: 4;
+    top: 71.5vw;
+    left: 15vw
+}
+
+#green3 {
+    top: 115vw;
+    right: 5vw;
+}
+
+#green4 {
+    top: 205vw;
+    left: 15vw
+}
+
+#green5 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green6 {
+    top: 85vw;
+    right: 4vw;
+}
+
+#green7 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green8 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green9 {
+    top: 85vw;
+    left: 4vw;
+}
+
+#green10 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green11 {
+    top: 35vw;
+    left: 4vw
+}
+
+#green12 {
+    top: 15vw;
+    left: 4vw
+}
+
+#red1 {
+    top: 25vw;
+    right: 10vw
+}
+
+#red2 {
+    z-index: 4;
+    top: 79vw;
+    right: 10vw;
+}
+
+#red3 {
+    top: 185vw;
+    right: 5vw;
+}
+
+#red4 {
+    top: 40vw;
+    left: 4vw;
+}
+
+#red5 {
+    z-index: 4;
+    top: 140vw;
+    right: 4vw;
+}
+
+#red6 {
+    z-index: 4;
+    top: 145vw;
+    left: 4vw;
+}
+
+#red7 {
+    z-index: 4;
+    top: 30vw;
+    left: 7vw;
+}
+
+#red8 {
+    z-index: 4;
+    top: 100vw;
+    left: 5vw;
+}
+
+#yellow1 {
+    top: 168vw;
+    left: 5vw
+}
+
+#yellow2 {
+    top: 130vw;
+    left: 4vw
+}
+
+#yellow3 {
+    top: 20vw;
+    left: 5vw
+}
+
+#yellow4 {
+    top: 105vw;
+    right: 4vw;
+}
+
+#yellow5 {
+    top: 35vw;
+    right: 4vw;
+}
+
+.services-section-div {
+    position: relative;
+    overflow: hidden;
+}
+
+#ban-con-l {
+    top: 9vw;
+    left: -1vw;
+    z-index: 4;
+}
+
+#ban-con-r {
+    top: 9vw;
+    right: -1vw;
+    z-index: 4;
+}
+
+.red-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.yellow-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.ban-con {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+#SVG-Home-Hero-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+    top: 28vw;
+}
+
+#SVG-Home-Hero-Wave img {
+    width: 40vw;
+}
+
+.home-hero-banner {
+    position: relative;
+    margin-top: 3.7vw;
+    z-index: 99;
+}
+}
+
+/* Mobile View */
+@media (max-width: 767px){
+    /* BG GRAPHICS */
+
+.green-note img{
+    width: 5vw;
+}
+
+.red-note img{
+    width: 5vw;
+}
+
+.yellow-note img{
+    width: 5vw;
+}
+
+.ban-con img{
+    width: 15vw;
+}
+
+.Home-SVG-Wave img {
+    width: 21vw;
+}
+
+.Home-SVG-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.green-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.About-Top-Wave img {
+    width: 15vw;
+}
+
+.About-Top-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.About-Wave-Left img {
+    width: 7vw;
+}
+
+.About-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.About-Wave-Right img {
+    width: 7vw;
+}
+
+.About-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Services-Line-Left img {
+    width: 7vw;
+}
+
+.Services-Line-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 0vw;
+}
+
+.Services-WaveLine-Right img {
+    width: 7vw;
+}
+
+.Services-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 140vw;
+    right: 0vw;
+}
+
+.Contact-Top-Right img {
+    width: 15vw;
+}
+
+.Contact-Top-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-Wave-Left img {
+    width: 10vw;
+}
+
+.Donate-Wave-Left {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 20vw;
+    left: 0vw;
+}
+
+.Donate-Wave-Right img {
+    width: 10vw;
+}
+
+.Donate-Wave-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 0vw;
+    right: 0vw;
+}
+
+.Donate-WaveLine-Right img {
+    width: 10vw;
+}
+
+.Donate-WaveLine-Right {
+    width: fit-content;
+    position: absolute;
+    z-index: 4;
+    top: 60vw;
+    right: 0vw;
+}
+
+#green1 {
+    top: 6vw;
+    left: 10vw
+}
+
+#green2 {
+    z-index: 4;
+    top: 71.5vw;
+    left: 15vw
+}
+
+#green3 {
+    top: 115vw;
+    right: 5vw;
+}
+
+#green4 {
+    top: 205vw;
+    left: 15vw
+}
+
+#green5 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green6 {
+    top: 85vw;
+    right: 4vw;
+}
+
+#green7 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green8 {
+    z-index: 4;
+    top: 9vw;
+    right: 7vw;
+}
+
+#green9 {
+    top: 85vw;
+    left: 4vw;
+}
+
+#green10 {
+    top: 180vw;
+    right: 4vw
+}
+
+#green11 {
+    top: 35vw;
+    left: 4vw
+}
+
+#green12 {
+    top: 15vw;
+    left: 4vw
+}
+
+#red1 {
+    top: 25vw;
+    right: 10vw
+}
+
+#red2 {
+    z-index: 4;
+    top: 79vw;
+    right: 10vw;
+}
+
+#red3 {
+    top: 185vw;
+    right: 5vw;
+}
+
+#red4 {
+    top: 40vw;
+    left: 4vw;
+}
+
+#red5 {
+    z-index: 4;
+    top: 140vw;
+    right: 4vw;
+}
+
+#red6 {
+    z-index: 4;
+    top: 145vw;
+    left: 4vw;
+}
+
+#red7 {
+    z-index: 4;
+    top: 30vw;
+    left: 7vw;
+}
+
+#red8 {
+    z-index: 4;
+    top: 100vw;
+    left: 5vw;
+}
+
+#yellow1 {
+    top: 168vw;
+    left: 5vw
+}
+
+#yellow2 {
+    top: 130vw;
+    left: 4vw
+}
+
+#yellow3 {
+    top: 20vw;
+    left: 5vw
+}
+
+#yellow4 {
+    top: 105vw;
+    right: 4vw;
+}
+
+#yellow5 {
+    top: 35vw;
+    right: 4vw;
+}
+
+.services-section-div {
+    position: relative;
+    overflow: hidden;
+}
+
+#ban-con-l {
+    top: 9vw;
+    left: -1vw;
+    z-index: 4;
+}
+
+#ban-con-r {
+    top: 9vw;
+    right: -1vw;
+    z-index: 4;
+}
+
+.red-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.yellow-note {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+.ban-con {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+}
+
+#SVG-Home-Hero-Wave {
+    width: fit-content;
+    position: absolute;
+    z-index: 0;
+    top: 28vw;
+}
+
+#SVG-Home-Hero-Wave img {
+    width: 40vw;
+}
+
+.home-hero-banner {
+    position: relative;
+    margin-top: 3.7vw;
+    z-index: 99;
+}
+}
