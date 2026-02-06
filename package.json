@@ -35,7 +35,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "better-sqlite3": "^12.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -49,7 +48,6 @@
     "multer": "^2.0.1",
     "neon-serverless": "^0.5.3",
     "neondatabase": "^0.0.1-security",
-    "next": "^15.3.5",
     "nodemailer": "^7.0.4",
     "pg": "^8.16.3",
     "pg-core": "^0.1.15",
@@ -62,7 +60,6 @@
     "react-scripts": "^5.0.1",
     "react-snap": "^1.23.0",
     "recharts": "^3.0.2",
-    "serverless": "^4.17.1",
     "tailwind": "^2.3.1",
     "tailwind-merge": "^3.3.1",
     "tanstack": "^1.0.0",
@@ -73,7 +70,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snap",
+    "build": "react-scripts build",
+    "build:snap": "react-scripts build && react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -109,5 +107,10 @@
   },
   "reactSnap": {
     "inlineCss": true
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^12.2.0",
+    "next": "^15.3.5",
+    "serverless": "^4.17.1"
   }
 }
