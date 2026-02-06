@@ -1,5 +1,4 @@
-import banner from '../Images/Blogs/how-mozart-changed-classical-music.jpg';
-
+import banner from '../Images/gallery/Frame 176.png';
 import { HelmetProvider } from 'react-helmet-async';
 
 export default function Blog7() {
@@ -12,7 +11,7 @@ export default function Blog7() {
       </HelmetProvider>
       <div className="BlogBody">
         <header className="wrap">
-          <img  alt="7" />
+        <img id='blogbanner' src={banner} alt="" />
           <h1>How Music Education for Children Improves Memory, Focus, and Discipline</h1>
           <p className="lead">What if one activity could sharpen your child's memory, improve concentration, and build lifelong discipline—all while being joyful and creative? That's the power of music education for children.</p>
           <p className="lead">In today's fast-paced, screen-heavy world, children struggle more than ever with attention span, emotional regulation, and structured learning habits. Parents are searching for meaningful activities that go beyond academics—and music education stands out as one of the most scientifically proven and holistically beneficial choices.</p>
