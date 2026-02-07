@@ -88,7 +88,7 @@ input:-webkit-autofill {
   font-size: 1vw;
   font-family: "Montserrat";
   font-weight: 500;
-  color: #B9B9B9;
+  color: #676464;
   border: 0vw;
   border-bottom: 0.2vw solid #DB7036;
   margin-top: 1vw;
@@ -684,7 +684,7 @@ div {
 .Header-Div {
   padding-top: 4vw;
   padding-bottom: 2vw;
-  border-top: #B9B9B9 solid 0.1vw;
+  border-top: #676464 solid 0.1vw;
 }
 
 .Header-Desktop{
@@ -744,8 +744,8 @@ div {
   margin-bottom: 3vw;
   padding-top: 4vw;
   padding-bottom: 2vw;
-  border-top: #B9B9B9 solid 0.1vw;
-  border-bottom: #B9B9B9 solid 0.1vw;
+  border-top: #676464 solid 0.1vw;
+  border-bottom: #676464 solid 0.1vw;
 }
 
 .Footer-Info {
@@ -778,7 +778,8 @@ div {
   font-size: 1vw;
   font-weight: 500;
   background-color: #FFFDF4;
-  color: #B9B9B9;
+    color: #676464;
+
 }
 
 .Footer-Socials  {
@@ -1172,7 +1173,7 @@ div {
   font-size: 1vw;
   font-weight: 500;
   background-color: #FFFDF4;
-  color: #B9B9B9;
+  color: #676464;
   padding-left: 0vw;
 }
 
@@ -1363,7 +1364,7 @@ div {
   font-size: 1vw;
   font-weight: 500;
   background-color: #FFFDF4;
-  color: #B9B9B9;
+  color: #676464;
   padding-left: 0vw;
 }
 
@@ -2745,7 +2746,7 @@ div {
 .Header-Div {
   padding-top: 4vw;
   padding-bottom: 2vw;
-  border-top: #B9B9B9 solid 0.1vw;
+  border-top: #676464 solid 0.1vw;
 }
 
 .Header-Desktop{
@@ -2787,8 +2788,8 @@ div {
   margin-top: 10vw;
   padding-top: 4vw;
   padding-bottom: 2vw;
-  border-top: #B9B9B9 solid 0.1vw;
-  border-bottom: #B9B9B9 solid 0.1vw;
+  border-top: #676464 solid 0.1vw;
+  border-bottom: #676464 solid 0.1vw;
 }
 
 .Footer-Info {
@@ -2821,7 +2822,8 @@ div {
   font-size: 1.3vw;
   font-weight: 500;
   background-color: #FFFDF4;
-  color: #B9B9B9;
+    color: #676464;
+    
 }
 
 .Footer-Socials  {
@@ -3091,7 +3093,7 @@ div {
       font-size: 1.6vw;
       font-weight: 500;
       background-color: #FFFDF4;
-      color: #B9B9B9;
+      color: #676464;
       padding-left: 0vw;
   }
   
@@ -3214,7 +3216,7 @@ div {
       font-size: 1.5vw;
       font-weight: 500;
       background-color: #FFFDF4;
-      color: #B9B9B9;
+      color: #676464;
       padding-left: 0vw;
   }
 
@@ -3642,7 +3644,7 @@ input:-webkit-autofill {
   font-size: 3vw;
   font-family: "Montserrat";
   font-weight: 500;
-  color: #B9B9B9;
+  color: #676464;
   border: 0vw;
   border-bottom: 0.4vw solid #DB7036;
   margin-top: 4vw;
@@ -4287,8 +4289,8 @@ div {
       margin-top: 10vw;
       padding-top: 8vw;
       padding-bottom: 4vw;
-      border-top: #B9B9B9 solid 0.1vw;
-      border-bottom: #B9B9B9 solid 0.1vw;
+      border-top: #676464 solid 0.1vw;
+      border-bottom: #676464 solid 0.1vw;
   }
 
   .Footer-Info {
@@ -4329,7 +4331,8 @@ div {
       font-size: 4vw;
       font-weight: 500;
       background-color: #FFFDF4;
-      color: #B9B9B9;
+    color: #676464;
+    
   }
 
   .Footer-Socials  {
@@ -4748,7 +4751,7 @@ div {
       font-size: 4vw;
       font-weight: 500;
       background-color: #FFFDF4;
-      color: #B9B9B9;
+      color: #676464;
       padding-left: 0vw;
   }
   
@@ -4866,7 +4869,7 @@ div {
       font-size: 4vw;
       font-weight: 500;
       background-color: #FFFDF4;
-      color: #B9B9B9;
+      color: #676464;
       padding-left: 0vw;
   }
 

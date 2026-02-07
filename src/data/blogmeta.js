@@ -3,7 +3,8 @@ import discoverbachlegacyinmumbai from '../Images/Blogs/discover-bach-legacy-in-
 import top10factsaboutbeethoven from '../Images/Blogs/top-10-facts-about-beethoven.jpg';
 import howmozartchangedclassicalmusic from '../Images/Blogs/how-mozart-changed-classical-music.jpg';
 import whychopinsmusicstillinspires from '../Images/Blogs/why-chopins-music-still-inspires.jpg';
-import discovershostakovichtimelessmusiclegacy from '../Images/Blogs/discover-shostakovich-timeless-music-legacy.jpg'
+import discovershostakovichtimelessmusiclegacy from '../Images/Blogs/discover-shostakovich-timeless-music-legacy.jpg';
+import frame176 from '../Images/gallery/Frame 176.png';
 
 const blogMeta = [
     {
@@ -43,7 +44,7 @@ const blogMeta = [
       description: 'Explore why Chopin’s music continues to inspire musicians and learners worldwide. Discover how Sur Saathi, a music initiative in Mumbai, carries his legacy.',
     },
     {
-      image: howmozartchangedclassicalmusic,
+      image: frame176,
       id: 'blog7',
       title: 'Music Education for Children: Memory, Focus & Discipline',
       description: 'Discover how music education for children boosts memory, focus, and discipline. Backed by research, expert insights, and real examples.',
