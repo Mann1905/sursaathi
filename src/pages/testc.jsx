@@ -36,6 +36,7 @@ export default function DonateInst() {
     useEffect(() => {
         intervalRef.current = setInterval(slideNext, 5000);
         return () => clearInterval(intervalRef.current);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const VISIBLE_COUNT_M = 1;
@@ -56,6 +57,7 @@ export default function DonateInst() {
     useEffect(() => {
         intervalRef.current = setInterval(slideNext_M, 5000);
         return () => clearInterval(intervalRef.current);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (

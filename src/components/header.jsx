@@ -5,8 +5,7 @@ import Logo from "../Images/SVG/Logo_colored.svg";
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const [locked, setLocked] = useState(false);
-
+  const [locked] = useState(false);
 
   useEffect(() => {
     if (locked) {

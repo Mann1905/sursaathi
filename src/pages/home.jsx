@@ -1,9 +1,3 @@
-import PageImage1 from '../Images/Website_1a.jpg'
-import PageImage2 from '../Images/Website_2.jpg'
-import PageImage3 from '../Images/Website_4a.jpg'
-import PageImage5 from '../Images/About/5.jpg'
-import PageImage6 from '../Images/About/6.jpg'
-
 import Donate1 from '../Images/Donation/01.jpeg'
 import Donate2 from '../Images/Donation/02.jpeg'
 import Donate3 from '../Images/Donation/03.jpeg'
@@ -17,7 +11,6 @@ import GreenNote from '../Images/SVG/Artboard 4.svg'
 
 import Wave1 from '../Images/SVG/Artboard 9.svg'
 import Wave2 from '../Images/SVG/Artboard 10.svg'
-import Wave3 from '../Images/About/Frame 51.png'
 
 import BannerLeft from '../Images/SVG/Vector 3.svg'
 import BannerRight from '../Images/SVG/Vector 2.svg'
@@ -104,6 +97,7 @@ export default function Home() {
         }, 5000);
 
         return () => clearInterval(id);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
   // CARD AUTO SLIDER END
@@ -115,6 +109,7 @@ export default function Home() {
     intervalRef.current = setInterval(slideNext, 3000);
 
     return () => clearInterval(intervalRef.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
     const trackRef = useRef(null);
@@ -147,6 +142,7 @@ export default function Home() {
     useEffect(() => {
         intervalRefD.current = setInterval(slideNextD, 5000);
         return () => clearInterval(intervalRefD.current);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const VISIBLE_COUNT_M = 1;
@@ -167,6 +163,7 @@ export default function Home() {
     useEffect(() => {
         intervalRefD.current = setInterval(slideNext_M, 5000);
         return () => clearInterval(intervalRefD.current);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
   const slidesData = [

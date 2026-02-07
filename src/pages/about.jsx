@@ -6,7 +6,6 @@ import PageImage5 from '../Images/About/5.jpg'
 import PageImage6 from '../Images/About/6.jpg'
 import PageImage9 from '../Images/About/9.jpg'
 import PageImage10 from '../Images/About/10.jpg'
-import PageImage11 from '../Images/About/11.jpg'
 import PageImage12 from '../Images/About/12.jpg'
 import PageImage13 from '../Images/About/Volunteer_03.jpeg'
 

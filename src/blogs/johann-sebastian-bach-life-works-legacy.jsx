@@ -178,10 +178,7 @@ export default function Blog1() {
             <p><span id="year"></span> Sur Saathi, Mumbai • Educational resource</p>
           </footer>
 
-          <script>
-            // Update year automatically
-            document.getElementById('year').textContent = new Date().getFullYear();
-          </script>
+          <script dangerouslySetInnerHTML={{ __html: 'document.getElementById("year").textContent=new Date().getFullYear();' }} />
         </div>
     </div>
   );
